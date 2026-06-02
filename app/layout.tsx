@@ -26,7 +26,12 @@ export default function RootLayout({
     <html
       lang="pt-BR"
       className="h-full antialiased scroll-smooth"
+      style={{ colorScheme: 'light' }}
     >
+      <head>
+        {/* Força o modo claro em todos os navegadores/sistemas */}
+        <meta name="color-scheme" content="light" />
+      </head>
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );

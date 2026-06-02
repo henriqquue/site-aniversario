@@ -7,6 +7,8 @@
   --font-serif: 'Playfair Display', Georgia, serif;
   --font-sans: 'Plus Jakarta Sans', sans-serif;
   --font-handwritten: 'Pacifico', cursive;
+  /* Força sempre o modo claro, independente do sistema operacional */
+  color-scheme: light only;
 }
 
 body {
