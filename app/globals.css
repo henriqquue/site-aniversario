@@ -11,6 +11,13 @@
   color-scheme: light only;
 }
 
+/* Escala proporcional para mobile: reduz o tamanho base da fonte */
+@media (max-width: 640px) {
+  html {
+    font-size: 14px;
+  }
+}
+
 body {
   background-color: #F3E5F5;
   color: #2C1A4D;

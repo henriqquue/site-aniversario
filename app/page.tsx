@@ -365,11 +365,11 @@ export default function Home() {
           transition={{ duration: 1 }}
           className="max-w-4xl mx-auto"
         >
-          <span className="text-[#9575CD] font-bold text-sm tracking-widest uppercase flex items-center justify-center gap-2 magic-glow">
-            ★── ⋆˖˚🌸 My Mahou Shoujo 🌸˚˖⋆ ──★
+          <span className="text-[#9575CD] font-bold text-sm tracking-widest uppercase flex items-center justify-center gap-2">
+            ★── ⋆˖˚ My Mahou Shoujo ˚˖⋆ ──★
           </span>
 
-          <h1 className="text-[#7E57C2] font-serif text-5xl md:text-8xl leading-tight font-extrabold mt-6 drop-shadow-sm">
+          <h1 className="text-[#7E57C2] font-serif text-3xl md:text-8xl leading-tight font-extrabold mt-6 drop-shadow-sm">
             Para a minha <br />
             <span className="relative">
               Garota Mágica
@@ -377,7 +377,7 @@ export default function Home() {
             </span>
           </h1>
 
-          <p className="text-lg md:text-2xl italic font-medium mt-8 text-[#7E57C2] max-w-xl mx-auto font-serif">
+          <p className="text-base md:text-2xl italic font-medium mt-8 text-[#7E57C2] max-w-xl mx-auto font-serif">
             "O Amor da Minha vida, e por quem eu faria tanto."
           </p>
 
@@ -894,7 +894,7 @@ export default function Home() {
               animate={{ scale: 1, y: 0, rotate: 0 }}
               exit={{ scale: 0.9, y: 50, rotate: 2 }}
               transition={{ type: 'spring', damping: 20 }}
-              className="bg-white p-6 max-w-lg w-full rounded-2xl shadow-2xl border-4 border-[#9575CD]/30 cursor-default relative overflow-hidden"
+              className="bg-white p-6 max-w-lg w-full rounded-2xl shadow-2xl border-4 border-[#9575CD]/30 cursor-default relative overflow-hidden max-h-[90vh] overflow-y-auto"
               onClick={(e) => e.stopPropagation()}
             >
               {/* Brilhinhos no fundo do modal */}
@@ -903,7 +903,7 @@ export default function Home() {
               </div>
 
               {/* Foto Ampliada */}
-              <div className="w-full h-64 bg-slate-100 rounded-xl overflow-hidden shadow-inner relative border border-slate-200">
+              <div className="w-full h-48 md:h-64 bg-slate-100 rounded-xl overflow-hidden shadow-inner relative border border-slate-200">
                 {selectedMemory.imageUrl ? (
                   // eslint-disable-next-line @next/next/no-img-element
                   <img
