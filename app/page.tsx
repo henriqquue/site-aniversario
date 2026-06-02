@@ -63,7 +63,7 @@ const defaultMemories: Memory[] = [
   {
     id: 'mem-4',
     title: 'Tudo que eu mais queria',
-    description: 'O dia em que ela superou um grande desafio com foco, garra e determinação. Ver a expressão de orgulho no rosto dela ao vencer essa etapa provou que ela é capaz de realizar absolutamente tudo o que desejar.',
+    description: 'Sempre que ficamos juntos, mesmo que por pouco tempo, já é o suficiente para eu perceber que amo você cada dia mais. Vai ser ótimo quando kitty e chocopão forem da mesma forma!',
     date: '20/05/2026',
     category: 'special',
     imageUrl: '/foto4.jpeg',
@@ -408,53 +408,8 @@ export default function Home() {
           </div>
         </motion.div>
 
-        {/* Itens Flutuantes Decorações de Madoka Mágica (Inspirado na imagem do usuário) */}
-        {/* Top-Left: Gema da Alma Roxa (Homura) */}
-        <motion.div
-          className="absolute top-[8%] left-[3%] md:left-[8%] w-14 md:w-20 h-auto pointer-events-none z-0 opacity-80"
-          animate={{ y: [0, -12, 0], rotate: [0, 6, -6, 0] }}
-          transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
-        >
-          <PurpleSoulGem />
-        </motion.div>
 
-        {/* Mid-Left: Gema da Alma Amarela (Mami) */}
-        <motion.div
-          className="absolute bottom-[22%] left-[4%] md:left-[14%] w-10 md:w-16 h-auto pointer-events-none z-0 opacity-80"
-          animate={{ y: [0, -10, 0], rotate: [-4, 4, -4] }}
-          transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}
-        >
-          <YellowSoulGem />
-        </motion.div>
-
-        {/* Bottom-Left: Gema da Alma Rosa (Madoka) */}
-        <motion.div
-          className="absolute bottom-[10%] left-[10%] md:left-[4%] w-18 md:w-28 h-auto pointer-events-none z-0 opacity-80"
-          animate={{ y: [0, -15, 0], rotate: [-2, 3, -3, -2] }}
-          transition={{ duration: 7, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-        >
-          <PinkSoulGem />
-        </motion.div>
-
-        {/* Bottom-Right-Center: Gema da Alma Azul (Sayaka) */}
-        <motion.div
-          className="absolute bottom-[12%] right-[10%] md:right-[18%] w-10 md:w-14 h-auto pointer-events-none z-0 opacity-85"
-          animate={{ y: [0, -8, 0], rotate: [-1, 2, -2, -1] }}
-          transition={{ duration: 5.5, repeat: Infinity, ease: "easeInOut", delay: 1.5 }}
-        >
-          <BlueSoulGem />
-        </motion.div>
-
-        {/* Bottom-Right: Bastão Mágico com Coração e Asinhas de Madoka */}
-        <motion.div
-          className="absolute bottom-[5%] right-[2%] md:right-[6%] w-20 md:w-32 h-auto pointer-events-none z-0 opacity-90"
-          animate={{ y: [0, -20, 0], rotate: [12, 18, 8, 12] }}
-          transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
-        >
-          <MagicalWand />
-        </motion.div>
-
-        <div className="absolute bottom-12 animate-bounce cursor-pointer flex flex-col items-center text-[#7E57C2] z-30" onClick={() => scrollTo('talentos')}>
+        <div className="absolute bottom-30 animate-bounce cursor-pointer flex flex-col items-center text-[#7E57C2] z-30" onClick={() => scrollTo('talentos')}>
           <span className="text-xs font-semibold uppercase tracking-wider mb-2">Role para baixo</span>
           <ChevronDown className="w-6 h-6" />
         </div>
@@ -676,7 +631,7 @@ export default function Home() {
       <section id="polaroids" className="pt-16 pb-36 bg-[#FDF9FE] relative z-10 px-4 md:px-12 overflow-hidden">
         <div className="max-w-6xl mx-auto text-center mb-10 flex flex-col items-center">
           <span className="text-[#9575CD] font-bold text-xs uppercase tracking-widest flex items-center justify-center gap-2">
-            <Camera className="w-4 h-4" /> Registro das Suas Pegadas
+            <Camera className="w-4 h-4" /> Registros Valiosos
           </span>
           <h2 className="text-[#7E57C2] font-serif text-4xl md:text-5xl font-extrabold mt-2 text-center">
             Mini Álbum  📸
@@ -799,7 +754,7 @@ export default function Home() {
               />
             </div>
             <div className="relative z-10">
-              <span className="bg-[#7E57C2]/10 text-[#7E57C2] px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider">Estética Bonecas & Arte</span>
+              <span className="bg-[#7E57C2]/10 text-[#7E57C2] px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider">Draculaura Vibes</span>
               <h3 className="text-3xl font-serif font-extrabold text-[#7E57C2] mt-6">Monster High</h3>
               <p className="text-sm text-[#2C1A4D]/85 leading-relaxed mt-4 max-w-lg">
                 Seja a paixão por Monster High ou o carinho pela sua Franky preferida, o senso de moda alternativa, as costuras icônicas e a criatividade expressa nas bonecas refletem o olhar artístico e divertido que ela tem sobre o mundo.
@@ -810,7 +765,7 @@ export default function Home() {
             </div>
           </motion.div>
 
-          {/* Card 3: Mahou Shoujo / Madoka Vibes */}
+          {/* Card 2: Mahou Shoujo / Madoka Vibes */}
           <motion.div
             whileHover={{ scale: 1.03, rotate: -1.5 }}
             className="rounded-3xl overflow-hidden shadow-md border border-pink-100 bg-gradient-to-br from-[#FFE4EC] to-[#FDF9FE] p-6 flex flex-col justify-between relative overflow-hidden group"
@@ -835,7 +790,32 @@ export default function Home() {
             </div>
           </motion.div>
 
-          {/* Card 2: Paleta de Cores Favorita */}
+          {/* Card 3: Hello Kitty / Kuromi Vibes */}
+          <motion.div
+            whileHover={{ scale: 1.03, rotate: -1.5 }}
+            className="rounded-3xl overflow-hidden shadow-md border border-pink-100 bg-gradient-to-br bg-[#FDF9FE] p-6 flex flex-col justify-between relative overflow-hidden group"
+          >
+            <div className="absolute -right-2 -bottom-4 w-20 h-28 md:w-28 md:h-40 opacity-15 md:opacity-20 group-hover:opacity-30 md:group-hover:opacity-40 group-hover:scale-105 transition-all duration-500 pointer-events-none z-0">
+              <img
+                src="/kuromi.png"
+                alt="Madoka Kaname"
+                className="w-full h-full object-contain"
+              />
+            </div>
+            <div className="relative z-10">
+              <span className="bg-[#FFB7D5]/40 text-[#7E57C2] px-2.5 py-0.5 rounded text-[9px] font-bold uppercase tracking-wider">Kuromi</span>
+              <h4 className="text-xl font-serif font-extrabold text-[#7E57C2] mt-3">Kuromi</h4>
+              <p className="text-xs text-[#2C1A4D]/80 leading-relaxed mt-2">
+                A mistura do estilo punk rock com a fofura do My Melody faz dela uma anti-heroína adorável e estilosa.
+              </p>
+            </div>
+            <div className="text-[10px] font-bold text-[#7E57C2] flex items-center gap-1.5 mt-2 relative z-10 mt-6">
+              <Sparkles className="w-3.5 h-3.5 fill-current" />
+              <span>Mas por dentro, tão fofinha quanto My Melody!</span>
+            </div>
+          </motion.div>
+
+          {/* Card 4: Paleta de Cores Favoritas */}
           <motion.div
             whileHover={{ scale: 1.03, rotate: 1.5 }}
             className="rounded-3xl overflow-hidden shadow-md border border-purple-100 bg-white p-6 flex flex-col justify-between"
@@ -855,7 +835,7 @@ export default function Home() {
             </p>
           </motion.div>
 
-          {/* Card 4: Citações & Poesia */}
+          {/* Card 5: Citações & Poesia */}
           <motion.div
             whileHover={{ scale: 1.02, rotate: 1 }}
             className="md:col-span-2 rounded-3xl overflow-hidden shadow-md border border-purple-100 bg-[#FDF9FE] p-6 flex flex-col justify-between relative group"
@@ -873,14 +853,14 @@ export default function Home() {
             </div>
           </motion.div>
 
-          {/* Card 5: Doces & Aconchego */}
+          {/* Card 6: Doces & Aconchego */}
           <motion.div
             whileHover={{ scale: 1.03, rotate: 2 }}
             className="rounded-3xl overflow-hidden shadow-md border border-purple-100 bg-white p-6 flex flex-col justify-between group"
           >
             <div className="flex justify-between items-start">
-              <span className="bg-amber-100 text-amber-600 px-2.5 py-0.5 rounded text-[9px] font-bold uppercase tracking-wider">Aconchego</span>
-              <Coffee className="w-5 h-5 text-amber-400" />
+              <span className="bg-[#D1C4E9] text-[#7E57C2] px-2.5 py-0.5 rounded text-[9px] font-bold uppercase tracking-wider">Aconchego</span>
+              <Coffee className="w-5 h-5 text-[#9575CD]" />
             </div>
             <div>
               <h4 className="text-lg font-serif font-bold text-[#7E57C2] mt-2">Momentos Confortáveis</h4>
@@ -888,9 +868,9 @@ export default function Home() {
                 O cheirinho de doce recém-assado, canecas quentinhas de café, tardes tranquilas desenhando na chácara com brisa fresca.
               </p>
             </div>
-            <div className="border-t border-amber-50 pt-3 mt-3 flex items-center gap-2">
-              <Coffee className="w-4 h-4 text-amber-400" />
-              <span className="text-[10px] font-bold text-amber-500 uppercase tracking-wider">Docinhos & Cafés</span>
+            <div className="border-t border-[#EDE7F6] pt-3 mt-3 flex items-center gap-2">
+              <Coffee className="w-4 h-4 text-[#9575CD]" />
+              <span className="text-[10px] font-bold text-[#7E57C2] uppercase tracking-wider">Docinhos & Cafés</span>
             </div>
           </motion.div>
 
@@ -1052,7 +1032,7 @@ export default function Home() {
       </AnimatePresence>
 
       {/* 9. Encerramento Romântico */}
-      <section className="py-24 bg-[#FDF9FE] text-center relative z-10 px-4">
+      <section className="py-24 bg-[#FDF9FE] text-center relative z-10 px-4 overflow-hidden">
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
