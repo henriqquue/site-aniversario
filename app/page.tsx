@@ -36,17 +36,17 @@ const defaultMemories: Memory[] = [
   {
     id: 'mem-1',
     title: 'Festinha na Chácara',
-    description: 'Quando ela passou a tarde fazendo aquele doce maravilhoso só para nos ver sorrir. O aroma de açúcar e carinho tomou conta da casa inteira! Cada ingrediente que ela mistura parece carregar uma porção mágica de felicidade.',
-    date: '12/04/2026',
+    description: 'Sempre fico feliz vendo você em momentos felizes, mesmo que não me incluam!',
+    date: '30/05/2026',
     category: 'cooking',
     imageUrl: '/foto1.jpeg',
     color: 'from-[#FAD0C4] to-[#FFD1FF]'
   },
   {
     id: 'mem-2',
-    title: 'Sua Franky Preferida',
-    description: 'Um dos desenhos cheios de sensibilidade que ela criou. A forma como ela segura o pincel e combina as cores revela a profundidade de sua alma artística. Cada traço é uma janela para o mundo lindo que ela carrega no peito.',
-    date: '28/04/2026',
+    title: 'Sua Franky',
+    description: 'O mundo fica a um dia mais próximo da paz absoluta sempre que as suas bonequinhas chegam!',
+    date: '13/05/2026',
     category: 'art',
     imageUrl: '/foto2.jpeg',
     color: 'from-[#FF9A9E] to-[#FECFEF]'
@@ -54,8 +54,8 @@ const defaultMemories: Memory[] = [
   {
     id: 'mem-3',
     title: 'Você na Faculdade 😡',
-    description: 'Aquele pequeno recado surpresa escrito à mão e deixado no lugar mais inesperado. É a prova de que ela pensa nos mínimos detalhes e espalha doçura por onde passa. Guardarei esse papelzinho para sempre.',
-    date: '10/05/2026',
+    description: 'Você é muito admirável, um dos maiores exemplos para o futuros estudantes e profissionais da sua área.',
+    date: '08/04/2026',
     category: 'sweet',
     imageUrl: '/foto3.jpeg',
     color: 'from-[#A1C4FD] to-[#C2E9FB]'
@@ -556,14 +556,14 @@ export default function Home() {
                   <div className="w-12 h-12 bg-[#D1C4E9] rounded-2xl flex items-center justify-center text-[#7E57C2]">
                     <Palette className="w-6 h-6" />
                   </div>
-                  <h3 className="text-xl font-serif font-extrabold mt-4 text-[#7E57C2]">O Dom da Arte</h3>
+                  <h3 className="text-xl font-serif font-extrabold mt-4 text-[#7E57C2]">Seu Toque Artístico</h3>
                   <p className="text-xs leading-relaxed mt-2 text-[#2C1A4D]/80">
-                    Seus desenhos e pinturas não são apenas imagens; são sentimentos traduzidos em formas e cores. A sua dedicação a cada detalhe e a forma sensível como enxerga o mundo transforma qualquer papel em branco em pura poesia.
+                    Você tem um talento especial para desenhar e pintar, e eu amo como você consegue transformar e expressar tudo o que você gosta dessa forma.
                   </p>
                 </div>
                 <div className="mt-4 border-t border-[#F3E5F5] pt-4">
                   <div className="flex gap-2 justify-center py-2 bg-[#FDF9FE] rounded-xl">
-                    <span className="text-[10px] font-bold text-[#7E57C2] uppercase tracking-wider">★ Talento Artístico Único ★</span>
+                    <span className="text-[10px] font-bold text-[#7E57C2] uppercase tracking-wider">★ ★ ★</span>
                   </div>
                 </div>
               </div>
@@ -574,14 +574,14 @@ export default function Home() {
                   <div className="w-12 h-12 bg-[#B39DDB] rounded-2xl flex items-center justify-center text-[#7E57C2]">
                     <Coffee className="w-6 h-6" />
                   </div>
-                  <h3 className="text-xl font-serif font-extrabold mt-4 text-[#7E57C2]">Magia Culinária</h3>
+                  <h3 className="text-xl font-serif font-extrabold mt-4 text-[#7E57C2]">Sua Empatia</h3>
                   <p className="text-xs leading-relaxed mt-2 text-[#2C1A4D]/80">
-                    Tudo o que você cozinha carrega um sabor inigualável de aconchego. Cada receita é feita com um capricho que alimenta não só o corpo, mas a alma. Você transforma ingredientes simples em celebrações perfeitas.
+                    Você é extremamente sensitiva aos sentimentos, e isso faz com que você seja muito carinhosa, compreensiva e atenciosa com os outros. Lindinha demais!
                   </p>
                 </div>
                 <div className="mt-4 border-t border-[#F3E5F5] pt-4">
                   <div className="flex gap-2 justify-center py-2 bg-[#FDF9FE] rounded-xl">
-                    <span className="text-[10px] font-bold text-[#7E57C2] uppercase tracking-wider">🧁 Muito Amor no Tempero 🧁</span>
+                    <span className="text-[10px] font-bold text-[#7E57C2] uppercase tracking-wider">★ ★ ★</span>
                   </div>
                 </div>
               </div>
@@ -594,12 +594,12 @@ export default function Home() {
                   </div>
                   <h3 className="text-xl font-serif font-extrabold mt-4 text-[#7E57C2]">Pequenos Gestos</h3>
                   <p className="text-xs leading-relaxed mt-2 text-[#2C1A4D]/80">
-                    Sua preocupação, o abraço apertado nos dias difíceis, os bilhetes espontâneos. Esses detalhes miúdos revelam a grandeza imensa do seu coração. Você sabe acolher e amar de um jeito que cura e ilumina a vida.
+                    Sua preocupação, seus pequenos desenhos, sua simples forma de ser já é reconfortante. Você sabe acolher e amar e acolher de um jeito que cura o dia de qualquer pessoa.
                   </p>
                 </div>
                 <div className="mt-4 border-t border-[#F3E5F5] pt-4">
                   <div className="flex gap-2 justify-center py-2 bg-[#FDF9FE] rounded-xl">
-                    <span className="text-[10px] font-bold text-[#7E57C2] uppercase tracking-wider">💌 Carinho Todo Dia 💌</span>
+                    <span className="text-[10px] font-bold text-[#7E57C2] uppercase tracking-wider">★ ★ ★</span>
                   </div>
                 </div>
               </div>
@@ -610,14 +610,14 @@ export default function Home() {
                   <div className="w-12 h-12 bg-[#D1C4E9] rounded-2xl flex items-center justify-center text-[#7E57C2]">
                     <Sparkles className="w-6 h-6" />
                   </div>
-                  <h3 className="text-xl font-serif font-extrabold mt-4 text-[#7E57C2]">Brilho de Garota Mágica</h3>
+                  <h3 className="text-xl font-serif font-extrabold mt-4 text-[#7E57C2]">Você é uma Garota Mágica</h3>
                   <p className="text-xs leading-relaxed mt-2 text-[#2C1A4D]/80">
-                    Seu sorriso contagia instantaneamente. O entusiasmo quando você fala do que gosta e a sua persistência frente aos obstáculos provam a sua verdadeira essência de Mahou Shoujo. Você espalha brilho mágico em cada canto.
+                    Aqui, o título praticamente diz tudo. Você não é só uma, você é a própria representação de uma Mahou Shoujo!
                   </p>
                 </div>
                 <div className="mt-4 border-t border-[#F3E5F5] pt-4">
                   <div className="flex gap-2 justify-center py-2 bg-[#FDF9FE] rounded-xl">
-                    <span className="text-[10px] font-bold text-[#7E57C2] uppercase tracking-wider">✨ Luz que Ilumina ✨</span>
+                    <span className="text-[10px] font-bold text-[#7E57C2] uppercase tracking-wider">★ ★ ★</span>
                   </div>
                 </div>
               </div>
@@ -806,12 +806,12 @@ export default function Home() {
               <span className="bg-[#FFB7D5]/40 text-[#7E57C2] px-2.5 py-0.5 rounded text-[9px] font-bold uppercase tracking-wider">Kuromi</span>
               <h4 className="text-xl font-serif font-extrabold text-[#7E57C2] mt-3">Kuromi</h4>
               <p className="text-xs text-[#2C1A4D]/80 leading-relaxed mt-2">
-                A mistura do estilo punk rock com a fofura do My Melody faz dela uma anti-heroína adorável e estilosa.
+                Apesar de você ser uma mulher extremamente forte e que consegue passar e superar dificuldades que a maioria das pessoas não conseguiriam...
               </p>
             </div>
             <div className="text-[10px] font-bold text-[#7E57C2] flex items-center gap-1.5 mt-2 relative z-10 mt-6">
               <Sparkles className="w-3.5 h-3.5 fill-current" />
-              <span>Mas por dentro, tão fofinha quanto My Melody!</span>
+              <span>Por dentro, você é tão fofinha quanto My Melody!</span>
             </div>
           </motion.div>
 
@@ -831,7 +831,7 @@ export default function Home() {
               <div className="flex-1 h-14 rounded-xl bg-[#FB8CAC] flex items-center justify-center text-[10px] text-white font-bold shadow-sm" title="Periwinkle"></div>
             </div>
             <p className="text-xs text-slate-500 font-semibold leading-relaxed">
-              Tons suaves, românticos e mágicos que expressam delicadeza, calma e imaginação infinita.
+                As cores que mais representam você. A psicologia das cores diz que algumas podem representar sentimentos, e me lemro de você em todas que significam calmaria, romance, conforto e paz.
             </p>
           </motion.div>
 
@@ -849,7 +849,7 @@ export default function Home() {
             </div>
             <div className="flex items-center gap-2 relative z-10">
               <div className="w-2.5 h-2.5 rounded-full bg-[#7E57C2] animate-ping mt-6"></div>
-              <span className="text-[10px] font-bold text-[#7E57C2] uppercase tracking-widest mt-6">Definição dela</span>
+              <span className="text-[10px] font-bold text-[#7E57C2] uppercase tracking-widest mt-6">Tudo se tornou mais leve com você.</span>
             </div>
           </motion.div>
 
@@ -865,12 +865,12 @@ export default function Home() {
             <div>
               <h4 className="text-lg font-serif font-bold text-[#7E57C2] mt-2">Momentos Confortáveis</h4>
               <p className="text-xs text-slate-500 leading-relaxed mt-2">
-                O cheirinho de doce recém-assado, canecas quentinhas de café, tardes tranquilas desenhando na chácara com brisa fresca.
+                A sensação de estar em casa...Independente de onde eu esteja, se eu estiver com você, é como se fosse o meu lugar favorito no mundo.
               </p>
             </div>
             <div className="border-t border-[#EDE7F6] pt-3 mt-3 flex items-center gap-2">
               <Coffee className="w-4 h-4 text-[#9575CD]" />
-              <span className="text-[10px] font-bold text-[#7E57C2] uppercase tracking-wider">Docinhos & Cafés</span>
+              <span className="text-[10px] font-bold text-[#7E57C2] uppercase tracking-wider">Com altos doces 🍬</span>
             </div>
           </motion.div>
 
