@@ -546,7 +546,7 @@ export default function Home() {
               <h2 className="text-[#7E57C2] font-serif text-3xl font-extrabold mt-1 text-center">
                 O que lhe Torna Única.
               </h2>
-              <p className="text-xs text-slate-500 mt-1 text-center">Deslize para o lado para ver todos os cartões.</p>
+              <p className="text-xs text-slate-500 mt-1 text-center">Deslize para o lado para ver todos os cartões!</p>
             </div>
 
             <div className="flex gap-6 overflow-x-auto snap-x snap-mandatory no-scrollbar pb-8 pt-2">
@@ -637,7 +637,7 @@ export default function Home() {
             Mini Álbum  📸
           </h2>
           <p className="text-sm text-slate-500 max-w-xl mx-auto mt-4 text-center">
-            Cada clique abaixo é uma Polaroid especial contendo conquistas, detalhes e coisas incríveis feitas por ela. Clique nas fotos para ampliar e ler a história.
+            Cada clique abaixo é uma Polaroid especial contendo os detalhes que tornam especiais cada um destes momentos.
           </p>
         </div>
 
@@ -734,7 +734,7 @@ export default function Home() {
             Tudo que Lembra Você ✨
           </h2>
           <p className="text-sm text-slate-500 max-w-xl mx-auto mt-4 text-center">
-            Um pequeno mosaico visual colecionando o universo de estéticas, gostos e coisinhas que compõem o brilho único dela.
+            Um pequeno mosaico visual com seus gostos e coisinhas.
           </p>
         </div>
 
